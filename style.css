@@ -1,6 +1,10 @@
+body {
+	background-color: black;
+	background-image:url('watermelon.gif');
+}
 
 #banner {
-	width:100%;
+	width:50%;
 }
 
 .principal{
@@ -10,10 +14,13 @@
 
 .titulo-principal {
 	padding-left: 20px;
+	color: #FF0000;
 }
 
 .titulo-centralizado {
-	text-align: center
+	text-align: center;
+	color: blueviolet;
+	padding: 30px;
 }
 
 p {
@@ -32,7 +39,7 @@ em strong {
 	font-style: italic
 }
 
-.beneficios {
+.corte{
 	background: #FFFFFF;
 	padding: 20px;
 }
@@ -44,6 +51,6 @@ ul {
 	margin-right: 15%;
 }
 
-.imagembeneficios {
-	width: 50%;
+.imagemcorte {
+	width: 60%;
 }
